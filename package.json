@@ -1,13 +1,12 @@
 {
-  "name": "music-selfbot",
+  "name": "discord.js-selfbot-v13",
   "version": "1.0.0",
-  "description": "A Discord music selfbot using discord.js-selfbot-v13 and Lavalink.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "discord.js-selfbot-v13": "^1.3.8",
