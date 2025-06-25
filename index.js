@@ -19,7 +19,7 @@ client.on('ready', () => {
         host: LAVALINK_HOST,
         port: Number(LAVALINK_PORT),
         password: LAVALINK_PASSWORD,
-        secure: false,
+        secure: true,
       },
     ],
     send: (id, payload) => {
