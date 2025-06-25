@@ -1,17 +1,17 @@
 {
-  "name": "24-voice-account",
-  "version": "0.1.0",
-  "description": "24-voice-account",
+  "name": "music-selfbot",
+  "version": "1.0.0",
+  "description": "A Discord music selfbot using discord.js-selfbot-v13 and Lavalink.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "discord.js-selfbot-v13": "^3.1.4",
-    "@discordjs/voice": "^0.17.0",
-    "express": "^4.18.3"
-  },
   "engines": {
     "node": "16.x"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^1.3.8",
+    "erela.js": "^2.5.5",
+    "express": "^4.18.2"
   }
 }
